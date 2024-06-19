@@ -1,12 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
-// import { MailchimpForm } from "./MailchimpForm";
-// import logo from "../assets/img/logo.svg";
-import navIcon1 from "../assets/img/nav-icon1.svg";
-import git from "../assets/img/git.svg";
+  import navIcon1 from "../assets/img/nav-icon1.svg";
+// import git from "../assets/img/git.svg";
 import git2 from "../assets/img/git2.svg";
 
-import navIcon3 from "../assets/img/nav-icon3.svg";
-import UNT from "../assets/img/UNT.svg";
+ import UNT from "../assets/img/UNT.svg";
 
 export const Footer = () => {
   return (
@@ -21,8 +18,7 @@ export const Footer = () => {
               <a href="https://www.linkedin.com/in/nicolas-csce/"><img src={navIcon1} alt="Icon" /></a>
               <a href="https://github.com/Nicolas-hr00"><img src={git2} alt="Icon" /></a>
             </div>
-            <p>Copyright 2022. All Rights Reserved</p>
-          </Col>
+           </Col>
         </Row>
       </Container>
     </footer>

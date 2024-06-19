@@ -5,7 +5,6 @@ import headerImg from "../assets/img/header-img.svg";
 // import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
-
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -58,7 +57,7 @@ export const Banner = () => {
                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                     <span className ="tagline" >Welcome to my portfolio</span>
                 <h1>{`Hey! I'm Nico`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Aplication developer" ]'><span className="wrap">{text}</span></span></h1>
-                    <p>Driven Computer Science student at The University of North Texas, equipped with a cybersecurity certificate and a strong passion for technology. Demonstrates a unique blend of creativity, analytical prowess, and innovation. Excels in teamwork, critical thinking, and effective communication.</p>
+                    <p>Driven Computer Science student at The University of North Texas. Demonstrates a unique blend of creativity, analytical prowess, and innovation. Excels in teamwork, critical thinking, and effective communication. Passionate about web development and enthusiastic about applying creative solutions to develop high-quality applications.</p>
                 </div>}
             </TrackVisibility>
            </Col>
